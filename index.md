@@ -14,4 +14,4 @@
 
 **Favorite movie quote (so far)** 
 >"He said it [patriotism] was the last refuge of the scoundrel" 
-> \-/ Colonel Dax, Paths of Glory 1957
+> \- Colonel Dax, Paths of Glory 1957
