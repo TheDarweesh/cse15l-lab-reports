@@ -25,4 +25,4 @@
 > \- Colonel Dax, Paths of Glory 1957
 
 ### **Link to Lab Report 1**
-[Lab Report 1](lab-report-1-week-0.html)
+([Lab Report 1](https://<TheDarweesh>.github.io/<cse15l-lab-reports>/lab-report-1-week-0.html))
