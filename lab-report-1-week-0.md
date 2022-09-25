@@ -1,2 +1,2 @@
-1# Lab Report
+# Lab Report
 ![screenshot](cse15_first_pic.PNG)
