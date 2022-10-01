@@ -26,6 +26,9 @@
 >"He said it [patriotism] was the last refuge of the scoundrel" 
 > \- Colonel Dax, Paths of Glory 1957
 
-### **Link to Lab Report 1**
+### **Link to Lab Report 1 week 0**
 [Lab Report 1](lab-report-1-week-0.html)
 
+
+### **Link to Lab Report 1 week 1**
+[Lab Report 1](lab-report-1-week-1.html)
