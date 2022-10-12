@@ -1,17 +1,18 @@
 # Lab Report Week 1 #
 ## **Installing Visual Studio Code**
 ---
-### 1) Search "VS Code" on google.
-![screenshot1](codeinstall1.PNG)
+### 1) Click link to Visual Studio Code download 
 
-### 2) Click the download link and select the download that is appropriate for your Operating System.
+### [Download Link](https://code.visualstudio.com/download)
+
+### 2) Click the download link and select the download that is appropriate for your operating system.
 ![screenshot2](codeinstall2.PNG)
 
 
 ## **Remotely Connecting** 
 ---
 ### Open the terminal function on VS Code 
-![screenshot3](remoteconnect1.PNG)
+![screenshot3](remoteconnect1.png)
 ### Type in without quotes "ssh cs15lfa22XX@ieng6.ucsd.edu"
 ### Replace XX with the two letters corresponding to your account as found in the account lookup tool. 
 ---
@@ -22,19 +23,34 @@
 
 --- 
 ## **Try some commands**
-### Type PWD [print working directory] into the terminal press enter. 
+### Type pwd [print working directory] into the terminal press enter. 
 
 ### This should tell you the path of the directory that the remote connection is operating from.  
 ![screenshot5](trysomecommands.PNG)
 
 --- 
-## **Using SCP to copy files to the remote server** 
+## **Using scp to copy files to the remote server** 
 
 ### SCP is a command that sends specific files to a specific directory to another computer or server. In this example it is used so that files can be compiled and ran using the remote server instead of the local machine [your personal PC]
 
 ### In order to send files to the remote server use the command scp followed by the filename, account, and the file path. 
 
 ### **Example** 
+
+### WhereAmI.java is a simple program that prints out the user directory, the user name, and the operating system.
+
+### Create a file in Visual Studio Code named WhereAmI.java and copy and paste this code: 
+```
+class WhereAmI {
+  public static void main(String[] args) {
+    System.out.println(System.getProperty("os.name"));
+    System.out.println(System.getProperty("user.name"));
+    System.out.println(System.getProperty("user.home"));
+    System.out.println(System.getProperty("user.dir"));
+  }
+}
+```
+
 > ### scp WhereAmI.java cs15lfa22XX@ieng6.ucsd.edu:~/ 
 
 ### The symbols followed by the : indicate the parent path. The top essentially. 
@@ -63,14 +79,14 @@
 
 ### 2) You will then be prompted to enter a file to save the randomly generated key. Press enter without typing anything in and an automatic file path will be provided. 
 
-### 3) Another prompt will ask for a passphrase. For this lab just press enter again without typing anything.
+### 3) Another prompt will ask for a passphrase. Leave this prompt blank and press enter. 
 
 ### 4) An image resembling a punch card will be printed with multiple symbols. This should indicate that the key creation was successful. 
 
 ### 5) The key has two files now. One must be saved on the local machine and the other on the remote server. 
 
 ### 6) On local login: 
-> ssh cs15lfa22XX@ieng6.ucsd.edu
+>ssh cs15lfa22XX@ieng6.ucsd.edu
 ### 7) On the server: 
 > mkdir .ssh
 ### 
