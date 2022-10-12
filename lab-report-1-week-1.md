@@ -31,7 +31,7 @@
 --- 
 ## **Using scp to copy files to the remote server** 
 
-### SCP is a command that sends specific files to a specific directory to another computer or server. In this example it is used so that files can be compiled and ran using the remote server instead of the local machine [your personal PC]
+### scp is a command that sends specific files to a specific directory to another computer or server. In this example it is used so that files can be compiled and ran using the remote server instead of the local machine [your personal PC]
 
 ### In order to send files to the remote server use the command scp followed by the filename, account, and the file path. 
 
@@ -100,7 +100,7 @@ class WhereAmI {
 
 ![screenshot8](sshkey1.PNG) 
 
-### As shown, I used SCP to send over the file containing my password. Then I used my password. 
+### As shown, I used scp to send over the file containing my password. Then I used my password. 
 
 ### Notice that after using SSH I do not have to input my password. 
 
