@@ -72,7 +72,7 @@ class WhereAmI {
 --- 
 
 ## **Setting up a SSH key** 
-### The SSH key is used to make logging into the remote server quicker. This is especially useful and convienient if multiple files are being transferred in one session with changes. 
+### The ssh key is used to make logging into the remote server quicker. This is especially useful and convienient if multiple files are being transferred in one session with changes. 
 
 ### 1) Make sure you are using the local machine terminal. First type in: 
 > ssh-keygen
@@ -102,7 +102,7 @@ class WhereAmI {
 
 ### As shown, I used scp to send over the file containing my password. Then I used my password. 
 
-### Notice that after using SSH I do not have to input my password. 
+### Notice that after using ssh I do not have to input my password. 
 
 ---
 
