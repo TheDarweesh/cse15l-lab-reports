@@ -57,4 +57,39 @@ class Handler implements URLHandler {
 #
 ![listpic](week3pic.PNG)
 ### **The current list with only one addition**
+---
+<br>
+<br>
+<br>
+<br>
+<br>
 
+# Lab Report 2 Part Two #
+
+![codeProblem](testfail1.PNG)
+
+### The test array is 7, 6, 5, 4, 3, 2, 1. 
+### The expected return is 1, 2, 3, 4, 5, 6, 7. 
+### However, at the position of element 4, it expected an element that was two indicies off. In an array such as 1,2,3,4,5,6 it would return 6, 5, 4, 4, 5, 6.
+<br>
+
+![codeProblemcode](testfail1code.PNG)
+
+<br>
+
+### This occured due to the array element being set to itself with the middle index also being changed. Intuitively it would make sense in a sequence such as 3, 2, 1 to swap the numbers 1 and 3. 
+
+![codeProblemFixed](testfail1codefixed.PNG)
+
+<br>
+
+### The solution is to decrease the iterator by half and set a placeholder variable that holds each value which is then set to the array at the next position in the iteration. The last value is the first one to be placed in the beginning of the array.
+
+<br>
+
+## **Symptoms and Bugs**
+
+### It is important to understand that arrays start indexing from the number 0 when measured from left to right. In an array with 5 elements there would be 5 indices however since 0 is its own index we would first subtract 1 from it as there would technically be no [5] element to access and would result in an out of bounds error. 
+<br>
+
+### This means that in order to avoid confusion we must not think of array manipulation in matters of pure math but rather keeping in mind how indicies are counted. This is why it would make sense to take half of the length of the array to sort. 
