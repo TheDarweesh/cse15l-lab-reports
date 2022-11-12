@@ -38,7 +38,12 @@ less -N <file-name>
 q
 ```
 
-### 2) The second command option is done within the contents of a file shown by the command less. 
+### 2) The second command option is done within the contents of a file shown by the command less. Simply type 
+```
+/<search-term>
+```
+
+#### The term will be highlighted if found
 
 ![screenshot4](Screenshot4Lab3.PNG) 
 
