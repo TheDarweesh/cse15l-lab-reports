@@ -46,16 +46,16 @@ class Handler implements URLHandler {
 ---
 ## Search Engine Demonstration 
 ---
-![addpic](week3pic1.PNG)
+![addpic](Screenshots\week3pic1.PNG)
 
 ### **The method add is called and the parameter in the url is attributed to the letter s. The object after it is the string that will be added to the Array List.** 
 #
 ### **The Path is delineated by the / symbol. This allows us to create multiple paths that essentially allow us to create method calls that take in parameters and return results**
 #
-![searchpic](week3pic2.PNG)
+![searchpic](Screenshots\week3pic2.PNG)
 ### **As we can see with the search function we do not need to type out an entire item as all the method checks for is whether the letter "b" is contained in the string.** 
 #
-![listpic](week3pic.PNG)
+![listpic](Screenshots\week3pic.PNG)
 ### **The current list with only one addition**
 ---
 <br>
@@ -66,20 +66,20 @@ class Handler implements URLHandler {
 
 # Lab Report 2 Part Two #
 
-![codeProblem](testfail1.PNG)
+![codeProblem](Screenshots\testfail1.PNG)
 
 ### The test array is 7, 6, 5, 4, 3, 2, 1. 
 ### The expected return is 1, 2, 3, 4, 5, 6, 7. 
 ### However, at the position of element 4, it expected an element that was two indicies off. In an array such as 1,2,3,4,5,6 it would return 6, 5, 4, 4, 5, 6.
 <br>
 
-![codeProblemcode](testfail1code.PNG)
+![codeProblemcode](Screenshots\testfail1code.PNG)
 
 <br>
 
 ### This occured due to the array element being set to itself with the middle index also being changed. Intuitively it would make sense in a sequence such as 3, 2, 1 to swap the numbers 1 and 3. 
 
-![codeProblemFixed](testfail1codefixed.PNG)
+![codeProblemFixed](Screenshots\testfail1codefixed.PNG)
 
 <br>
 

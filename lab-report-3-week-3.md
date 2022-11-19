@@ -21,17 +21,17 @@ less -N <file-name>
 
 ### An example of the -N option used on the technical directory search results for .txt files. 
 
-![screenshot1](Screenshot1Lab3.PNG)
+![screenshot1](Screenshots\Screenshot1Lab3.PNG)
  
  ### The command typed 
 
-![screenshot2](Screenshot2Lab3.PNG)
+![screenshot2](Screenshots\Screenshot2Lab3.PNG)
 
 ### The first page of results
 
 ### After pressing the space button it will increment by the number of results shown on the screen. 
 
-![screenshot3](Screenshot3Lab3.PNG)
+![screenshot3](Screenshots\Screenshot3Lab3.PNG)
 
 ### To exit simply press the q key:
 ```
@@ -45,41 +45,41 @@ q
 
 #### The term will be highlighted if found
 
-![screenshot4](Screenshot4Lab3.PNG) 
+![screenshot4](Screenshots\Screenshot4Lab3.PNG) 
 
 ### After pressing enter
 
-![screenshot5](Screenshot5Lab3.PNG)
+![screenshot5](Screenshots\Screenshot5Lab3.PNG)
 
 ### It highlights the search results 
 
 <br>
 
 ### Another example 
-![screenshot6](Screenshot6Lab3.PNG)
+![screenshot6](Screenshots\Screenshot6Lab3.PNG)
 
 ### Final Example 
 
-![screenshot7](Screenshot7Lab3.PNG)
+![screenshot7](Screenshots\Screenshot7Lab3.PNG)
 
 ### 3) The -X command 
 
 ### The -X command keeps the content on the terminal screen even after quitting. 
 
 
-![screenshot8](Screenshot8Lab3.PNG)
+![screenshot8](Screenshots\Screenshot8Lab3.PNG)
 
 ### The highlighted file on the bottom indicates that we are still in the file 
 
-![screenshot9](Screenshot9Lab3.PNG)
+![screenshot9](Screenshots\Screenshot9Lab3.PNG)
 
 ### Even after quitting and typing in another command and viewing the contents of another file and exiting out the file above is still visible 
 
-![screenshot10](Screenshot10Lab3.PNG)
+![screenshot10](Screenshots\Screenshot10Lab3.PNG)
 
 ### As shown, less README.md was entered and quitted and we still see the contents of Server.java
 
-![screenshot11](Screenshot11Lab3.PNG)
+![screenshot11](Screenshots\Screenshot11Lab3.PNG)
 
 ### After -X for README.md we can still see the contents of Server.java and README.md
 

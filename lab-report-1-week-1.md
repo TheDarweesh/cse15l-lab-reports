@@ -6,17 +6,17 @@
 ### [Download Link](https://code.visualstudio.com/download)
 
 ### 2) Click the download link and select the download that is appropriate for your operating system.
-![screenshot2](codeinstall2.PNG)
+![screenshot2](Screenshots\codeinstall2.PNG)
 
 
 ## **Remotely Connecting** 
 ---
 ### Open the terminal function on VS Code 
-![screenshot3](remoteconnect1.png)
+![screenshot3](Screenshots\remoteconnect1.png)
 ### Type in without quotes "ssh cs15lfa22XX@ieng6.ucsd.edu"
 ### Replace XX with the two letters corresponding to your account as found in the account lookup tool. 
 ---
-![screenshot4](remoteconnect2.PNG)
+![screenshot4](Screenshots\remoteconnect2.PNG)
 ### The password option does not give any feedback however it does work. 
 
 ### On successful connection there should be a prompt that says "Hello [username], you are currently logged into ieng6-20X.ucsd.edu" 
@@ -26,7 +26,7 @@
 ### Type pwd [print working directory] into the terminal press enter. 
 
 ### This should tell you the path of the directory that the remote connection is operating from.  
-![screenshot5](trysomecommands.PNG)
+![screenshot5](Screenshots\trysomecommands.PNG)
 
 --- 
 ## **Using scp to copy files to the remote server** 
@@ -64,10 +64,10 @@ class WhereAmI {
 
 ### The first picture shown below is when the WhereAmI.java program is run on the local machine. The operating system is Windows 10 and the user name is my own. 
 
-![screenshot6](scp1.PNG)
+![screenshot6](Screenshots\scp1.PNG)
 ### The picture shown below show is when the WhereAmI.java program is run on the remote server. 
 
-![screenshot7](scp2.PNG)
+![screenshot7](Screenshots\scp2.PNG)
 
 --- 
 
@@ -98,7 +98,7 @@ class WhereAmI {
 
 ### IMPORTANT: replace X's with relevant information such as user name and account name. 
 
-![screenshot8](sshkey1.PNG) 
+![screenshot8](Screenshots\sshkey1.PNG) 
 
 ### As shown, I used scp to send over the file containing my password. Then I used my password. 
 
